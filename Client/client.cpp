@@ -125,4 +125,6 @@ int main(int argv, char** argc)
     }
 
     close(hsock);
+
+    return 0;
 }

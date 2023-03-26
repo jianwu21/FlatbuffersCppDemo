@@ -109,6 +109,8 @@ int main(int argv, char** argc){
             std::cout << "Error accepting, err code: " << errno << std::endl;
         }
     }
+
+    return 0;
 }
 
 void* OnNewSession(void *ln){
